@@ -1,0 +1,470 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,200;0,300;1,200&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/js/all.min.js"></script>
+  <title>www.ParasBirlaPoetry.com</title>
+</head>
+
+<body>
+  <main>
+    <div class="loader" id="loader-section"><img src="/WebPhotos/loader.gif" alt="loading image"></div>
+    <!-- header  navabar start -->
+    <header class="text-gray-600 body-font">
+      <div class="container">
+        <div class="logo"><img src="/ParasPhotos/paras.jpg.jpg" alt=""><span>poet paras</span></div>
+        <div class="humburger"><i class="fa-solid fa-bars" id="openMenu" onclick="openMenuBar()"> </i></div>
+        <div class="links" id="menubar">
+          <span onclick="closeMenuBar()"><i class="fa-solid fa-xmark"></i></span>
+          <ul>
+            <li><a href="">home</a></li>
+            <li><a href="/public/PoetPage_1.html" target="_blank">poets</a></li>
+            <li><a href="/public/videosPage_1.html" target="_blank">videos</a></li>
+            <li><a href="#about">about</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- header navabar end -->
+
+
+    <!-- start the background part  -->
+    <div class="background-section">
+      <div class="container">
+        <div class="content">
+          <h1 class="content-title">Hii! i am paras birla</h1>
+          <p class="content-text">
+            my name is paras birla i am a poet, this is my poetry website
+            i thank you for visiting
+          </p>
+          <button><a href="/public/PoetPage_1.html">go to poets</a> </button>
+        </div>
+        <div class="image-part">
+          <img src="/ParasPhotos/parasBg.png.png" alt="image">
+        </div>
+      </div>
+    </div>
+    <!-- end of backgroudn part  -->
+
+
+    <!-- start the paras birla introduction section -->
+    <section class="text-gray-600 body-font section2" id="about">
+      <div class="container px-5 py-24 mx-auto flex flex-col">
+        <div class="lg:w-4/6 mx-auto">
+          <div class="rounded-lg h-80 overflow-hidden">
+            <img id="speakimg" alt="content" class="object-fill object-center h-full w-full"
+              src="/ParasPhotos/parasspeakimage2.jpg.jpg">
+          </div>
+          <div class="flex flex-col sm:flex-row mt-10">
+            <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+              <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                <img src="/ParasPhotos/blackImage2.jpg.jpg" id="rounded-img" alt="">
+              </div>
+              <div class="flex flex-col items-center text-center justify-center">
+                <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">paras birla</h2>
+                <div class="w-12 h-1  rounded mt-2 mb-4" id="underline-parasheading"></div>
+                <p class="text-base">
+                  my name is paras birla i am also a poet and writer to join me follow me on instagram and facebook
+                </p>
+                <div class="social-links">
+                  <strong>follow</strong>
+                  <a href="https://facebook.com/paras_birla"><i class="fa-brands fa-facebook" style="font-size:25px;"
+                      id="social-icon"></i></a>
+                  <a href="https://instagram.com/paras_birla__?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"
+                      style="font-size:25px;" id="social-icon"></i></a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+              <p class="leading-relaxed text-lg mb-4">Meggings portland fingerstache lyft, post-ironic fixie man bun
+                banh mi umami everyday carry hexagon locavore direct trade art party. Locavore small batch listicle
+                gastropub farm-to-table lumbersexual salvia messenger bag. Coloring book flannel truffaut craft beer
+                drinking vinegar sartorial, disrupt fashion axe normcore meh butcher. Portland 90's scenester
+                vexillologist forage post-ironic asymmetrical, chartreuse disrupt butcher paleo intelligentsia pabst
+                before they sold out four loko. 3 wolf moon brooklyn.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end the paras birla introduction section -->
+
+    <div class="video-section" id="video-section">
+      <div class="video-container">
+        <div class="video-content">
+          <h3 class="video-title" id="video-title">Munch Program</h3>
+          <p class="video-text">I am also a stage speaker 
+            I go separately with the poets and also speak poet.</p>
+        </div>
+        <div class="videos-card">
+
+          <!-- start the video box -->
+          <div class="video-box">
+            <div class="video-gradient"></div>
+            <div class="video"><video loop autoplay src="/videos/video1.mp4" muted></video></div>
+          </div>
+          <!-- end of video box -->\
+        </div><!--end of videos card section-->
+        
+          <!-- more videos button -->
+          <div class="morevideoButton">
+            <a href="/public/videosPage_1.html" type="button"><span>go to videos</span> <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+          <!-- end of button -->
+
+      </div><!--end of video conatainer-->
+    </div><!--end of video section-->
+
+    <div class="poets-section" id="poet-section">
+      <div class="poets-container">
+
+        <div class="poet-heading">
+          <h3 class="poet-title" id="poet-title">poets</h3>
+        </div>
+        <div class="poets-boxes">
+          <!--start the box-->
+          <div class="box">
+            <div class="image"><a href="/PoetsImages/poet10.jpg.jpg" target="_blank"><img
+                  src="/PoetsImages/poet10.jpg.jpg" alt=""></a></div>
+          </div>
+          <!--end of box-->
+
+          <!--start the box-->
+          <div class="box">
+            <div class="image"><a href="/PoetsImages/poet4.jpg.jpg" target="_blank"><img
+                  src="/PoetsImages/poet4.jpg.jpg" alt=""></a></div>
+          </div>
+          <!--end of box-->
+
+          <!--start the box-->
+          <div class="box">
+            <div class="image"><a href="/PoetsImages/poet70.jpg.jpg" target="_blank"><img
+                  src="/PoetsImages/poet74.jpg.jpg" alt=""></a></div>
+          </div>
+          <!--end of box-->
+
+          <!--start the box-->
+          <div class="box">
+            <div class="image"><a href="/PoetsImages/poet76.jpg.jpg" target="_blank"><img
+                  src="/PoetsImages/poet76.jpg.jpg" alt=""></a></div>
+          </div>
+          <!--end of box-->
+
+          
+        </div>
+        <!--end of poet boxes-->
+
+
+        <div class="morepoetButton">
+          <a href="PoetPage_1.html" type="button"><span>more poets</span> <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <!--end of poets container-->
+    </div>
+    <!--end of poets section -->
+    <!--  start the books  section  -->
+    <div class="books-section" id="book-section">
+      <div class="books-container">
+        <!-- heading -->
+        <div class="bookheading">
+          <h3 class="title" id="book-title">you must read</h3>
+        </div>
+        <div class="books">
+
+          <!--START OF BOX -->
+          <div class="box">
+            <div class="image"><img src="/books/book1.jpeg" alt="book"></div>
+          </div>
+          <!-- END OF BOX  -->
+          <!--START OF BOX -->
+          <div class="box">
+            <div class="image"><img src="/books/book2.jpeg" alt="book"></div>
+          </div>
+          <!-- END OF BOX  -->
+          <!--START OF BOX -->
+          <div class="box">
+            <div class="image"><img src="/books/book3.webp" alt="book"></div>
+          </div>
+          <!-- END OF BOX  -->
+          <!--START OF BOX -->
+          <div class="box">
+            <div class="image"><img src="/books/book4.jpeg" alt="book"></div>
+          </div>
+          <!-- END OF BOX  -->
+          <!--START OF BOX -->
+          <div class="box">
+            <div class="image"><img src="/books/book5.jpeg" alt="book"></div>
+          </div>
+          <!-- END OF BOX  -->
+          <!--START OF BOX -->
+          <div class="box">
+            <div class="image"><img src="/books/book6.jpeg" alt="book"></div>
+          </div>
+          <!-- END OF BOX  -->
+
+        </div>
+        <!--END OF BOOKS PART-->
+      </div>
+      <!--END OF CONTAINER-->
+    </div>
+    <!--END OF BOOKS SECTION-->
+    <!-- end of books section -->
+
+    <!-- start the paras birla team member section -->
+    <section class="text-gray-600 body-font" id="teamintro-section">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1 class="text-2xl font-medium title-font font-capitalize mb-4 text-gray-900 tracking-widest"
+            id="team-title">OUR TEAM</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">It is my support, one of which is Mujib Aman Bhai Kavi and one is Mahendra Birla who is a poet as well as a screenwriter and producer.</p>
+        </div>
+        <div class="flex flex-wrap -m-4">
+          <div class="p-4 lg:w-1/2">
+            <div
+              class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+              <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                src="/TeamPhotos/paras.jpg.jpg">
+              <div class="flex-grow sm:pl-8">
+                <h2 class="title-font font-medium text-lg text-gray-900">Paras Birla</h2>
+                <h3 class="text-gray-500 mb-3">Writter</h3>
+                <p class="mb-4 team-intro-text">my name is paras birla and i am a poet as well as a writter and a
+                  creater</p>
+                <span class="inline-flex">
+                  <a class="text-gray-500" href="https://facebook.com/paras_birla">
+                    <i class="fa-brands fa-facebook" style="font-size:25px;" id="social-icon"></i>
+                  </a>
+                  <a class="ml-2 text-gray-500" href="https://twitter.com/paras_birla">
+                    <i class="fa-brands fa-twitter" style="font-size:25px;" id="social-icon"></i>
+                  </a>
+                  <a class="ml-2 text-gray-500" href="https://instagram.com/paras_birla__?igshid=YmMyMTA2M2Y=">
+                    <i class="fa-brands fa-instagram" style="font-size:25px;" id="social-icon"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/2">
+            <div
+              class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+              <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                src="/TeamPhotos/mahi.jpeg">
+              <div class="flex-grow sm:pl-8">
+                <h2 class="title-font font-medium text-lg text-gray-900">Mahi kumar</h2>
+                <h3 class="text-gray-500 mb-3">Poet and screenwritter</h3>
+                <p class="mb-4 team-intro-text">hii my name is mahendra kumar and i am a poet as well as a screenwritter
+                  and producer</p>
+                <span class="inline-flex">
+                  <a class="text-gray-500" href="https://facebook.com/writermahi">
+                    <i class="fa-brands fa-facebook" style="font-size:25px;" id="social-icon"></i>
+                  </a>
+                  <a class="ml-2 text-gray-500" href="https://twitter.com/writermahi">
+                    <i class="fa-brands fa-twitter" style="font-size:25px;" id="social-icon"></i>
+                  </a>
+                  <a class="ml-2 text-gray-500" href="https://instagram.com/writermahi__?igshid=YmMyMTA2M2Y=">
+                    <i class="fa-brands fa-instagram" style="font-size:25px;" id="social-icon"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="p-4 lg:w-1/2">
+            <div
+              class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+              <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4"
+                src="/TeamPhotos/mujib.jpg.jpg">
+              <div class="flex-grow sm:pl-8">
+                <h2 class="title-font font-medium text-lg text-gray-900">Mujib Aman</h2>
+                <h3 class="text-gray-500 mb-3">Poet</h3>
+                <p class="mb-4 team-intro-text">hii my name is mujib aman i am a poet and also a social worker</p>
+                <span class="inline-flex">
+                  <a class="text-gray-500" href="https://facebook.com/mujibaman">
+                    <i class="fa-brands fa-facebook" style="font-size:25px;" id="social-icon"></i>
+                  </a>
+                  <a class="ml-2 text-gray-500" href="https://twitter.com/mujibaman">
+                    <i class="fa-brands fa-twitter" style="font-size:25px;" id="social-icon"></i>
+                  </a>
+                  <a class="ml-2 text-gray-500" href="https://instagram.com/mujibaman__?igshid=YmMyMTA2M2Y=">
+                    <i class="fa-brands fa-instagram" style="font-size:25px;" id="social-icon"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- end  the paras birla team member section -->
+
+
+    <!-- contact page start -->
+    <section class="text-gray-600 body-font relative">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-12">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900" id="contact-underline">Contact Us
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base" id="contact-text">contact me for more information</p>
+        </div>
+        <!-- sucess alert div -->
+        <div class="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800" role="alert" id="alert-message"> 
+          <span class="font-medium">Email sent Successfull<span> your contact detaile has been sent
+        </div>
+        <!-- end of success alert div -->
+        <!-- message faild message -->
+        <div class="p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert" id="invalid-alert">
+          <span class="font-medium">invalid emial</span> please check your email 
+        </div>
+        <!-- end of message faild message -->
+        <div class="lg:w-1/2 md:w-2/3 mx-auto">
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="name" class="leading-7 text-sm text-gray-600">Your Name</label>
+                <input required type="text" id="name"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="email" class="leading-7 text-sm text-gray-600">Your Email</label>
+                <input required type="email" id="email" name="email"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="mobile" class="leading-7 text-sm text-gray-600">Your Mobile</label>
+                <input required type="number" id="mobile" name="mobile"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+            </div>
+            <div class="p-2 w-1/2">
+              <div class="relative">
+                <label for="address" class="leading-7 text-sm text-gray-600">Your Address</label>
+                <input required type="text" id="address" name="address"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+              </div>
+            </div>
+            <div class="p-2 w-full">
+              <div class="relative">
+                <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                <textarea required id="message" name="message"
+                  class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+              </div>
+            </div>
+
+            <div class="p-2 w-full">
+              <button
+                class="flex mx-auto text-white  border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                id="contact-btn" type="submit">send</button>
+            </div>
+            <div class="p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+              <a class="text-indigo-500">subhamchoudhary8020@gmail.com</a>
+              <p class="leading-normal my-5">developer 999
+                <br>Saint Cloud, MN 56301
+              </p>
+              <span class="inline-flex">
+                <a class="text-gray-500" href="https://facebook.com/paras_birla">
+                  <i class="fa-brands fa-facebook" style="font-size:22px;" id="social-icon"></i>
+                </a>
+                <a class="ml-2 text-gray-500" href="https://twitter.com/paras_birla">
+                  <i class="fa-brands fa-twitter" style="font-size:22px;" id="social-icon"></i>
+                </a>
+                <a class="ml-2 text-gray-500" href="https://instagram.com/paras_birla__?igshid=YmMyMTA2M2Y=">
+                  <i class="fa-brands fa-instagram" style="font-size:22px;" id="social-icon"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact page end -->
+
+    <!-- footer section start -->
+
+    <footer class="text-gray-600 body-font">
+      <div
+        class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <img src="/ParasPhotos/blackImage2.jpg.jpg" id="footer-image" alt="image">
+            <span class="ml-3 text-xl">Paras Birla</span>
+          </a>
+          <div class="developer-block">
+            <h3 class="title">developer <strong>shubham choudhary</strong></h3>
+            <p>+91 9171028810</p>
+            <div class="social-links">
+              <a class="text-gray-500" href="https://facebook.com/shubham choudhary">
+                <i class="fa-brands fa-facebook" style="font-size:22px;" id="social-icon"></i>
+              </a>
+              <a class="ml-2 text-gray-500" href="https://twitter.com/shubham choudhary">
+                <i class="fa-brands fa-twitter" style="font-size:22px;" id="social-icon"></i>
+              </a>
+              <a class="ml-2 text-gray-500" href="https://instagram.com/choudhary_ji012__?igshid=YmMyMTA2M2Y=">
+                <i class="fa-brands fa-instagram" style="font-size:22px;" id="social-icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4 categori-box">
+            <h2 class="title-font tracking-widest text-sm mb-3 categori">pages</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a href="/public/index.html">go to home</a>
+              </li>
+              <li>
+                <a href="/public/PoetPage_1.html">go ot poets</a>
+              </li>
+              <li>
+                <a href="/public/PoetPage_2.html">go to video</a>
+              </li>
+              <li>
+                <a href="#about">go to about</a>
+              </li>
+
+            </nav>
+          </div>
+
+          <div class="lg:w-1/4 md:w-1/2 w-full px-4 categori-box">
+            <h2 class="title-font  tracking-widest text-sm mb-3 categori">Famous poets Links</h2>
+            <nav class="list-none mb-10">
+              <li>
+                <a href="https://instagram.com/rahatindoriofficial__?igshid=YmMyMTA2M2Y="" >Rahat indori</a>
+          </li>
+          <li>
+            <a href=" https://instagram.com/azhar.tg__?igshid=YmMyMTA2M2Y="">azhar iqbal</a>
+              </li>
+              <li>
+                <a href="https://instagram.com/tanojdadhichpoetry__?igshid=YmMyMTA2M2Y="">tanoj dadhich</a>
+          </li>
+          <li>
+            <a href=" https://instagram.com/aalokshrivastav__?igshid=YmMyMTA2M2Y="">aalok shrivastav</a>
+              </li>
+
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end -->
+  </main>
+</body>
+<!-- link the html file to js file -->
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script src="/js/style.js"></script>
+</html>

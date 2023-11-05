@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    height: 100%;
+    position: relative;
+}
+main .loader{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #f4f5f6;
+    z-index: 10;
+}
+main .loader img{
+    margin: auto;
+}
+main .poet-container{
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+main    .poet-container .content{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+main .poet-container .content .title{
+    font-size: 35px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 20px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.555);}
+
+main    .poet-container .content .title::after{
+    content: "";
+    width: 60px;
+    height: 5px;
+    border-radius: 3px;
+    background-color:#DAFCFC;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+}
+main .poet-container .content .poet-text{
+    font-size: 1rem;
+    text-transform: capitalize;
+    color: #1b383ad0;font-weight: 500;
+}
+/* end h
+main section  */
+/* start the card designe section */
+main .poet-container .cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 2em;
+    
+   
+}
+main .poet-container .cards .box{
+    width: 230px;
+    height: 240px;
+    box-shadow: 0px 1px 6px 1px rgba(32 33 36 /28%);
+    margin: 25px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+}
+
+main    .poet-container .cards .box .image{
+    width: 100%;
+    height: 200px;
+}
+
+main    .poet-container .cards .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+main .poet-container .cards .box .download-icon{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+main    .poet-container .cards .box .download-icon strong{
+    font-size: 0.8rem;text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #4cabcd;
+}
+
+main    .poet-container .cards .box .download-icon a{
+    color: #4cabcd;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+main    .poet-container .cards .box .download-icon a:hover{
+    transform: scale(1.2);
+}
+
+/* next previous buttons  */
+main .poet-container .buttons{
+    width: 100%;
+    margin: auto;
+    padding-left: 30px;padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+    
+
+main    .poet-container .buttons a{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #0b3d01;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
